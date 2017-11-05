@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
    <head>
@@ -15,4 +15,34 @@
       </div>
    </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+     <title>File Metadata Microservice</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <h1>FreeCodeCamp API Project: File Metadata Microservice</h1>
+  <h3>
+    User stories:
+  </h3>
+
+  <ul>
+    <li>Users can submit a FormData object that includes a file upload.</li>
+    <li>When users submit something, they will receive the file size in bytes within the JSON response</li>
+  </ul>
+  
+  <p>
+    <form action="/get-file-size" method="post" enctype="multipart/form-data">
+      <label>Submit a file to view its filesize:</label><br><br>
+      <input type="file" name="file">
+      <input type="submit" >
+    </form>
+  </p>
+</body>
 </html>
